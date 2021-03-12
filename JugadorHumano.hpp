@@ -13,7 +13,7 @@ using namespace std;
 class JugadorHumano : public Jugador {
 	
 	public: 
-	JugadorHumano();
+	JugadorHumano(string );
 	Movimiento Jugar(TableroAtaque* );
 	void ColocarBarcos(TableroBarcos* );
 	

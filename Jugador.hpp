@@ -14,7 +14,7 @@ using namespace std;
 
 class Jugador{
 
-	private: 
+	public: 
 	string nombre; 
 	
 	public: 

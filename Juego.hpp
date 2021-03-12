@@ -13,12 +13,12 @@ using namespace std;
 class Juego{
 	
 	private: 
-	TableroBarcos* tablerobarcos; 
-	TableroAtaque* tableroataque; 
+	TableroBarcos** tablerobarcos; 
+	TableroAtaque** tableroataque; 
 	Jugador** jugadores; 
 	
 	public: 
-	Juego();
+	Juego(TableroBarcos **, TableroAtaque**, Jugador** );
 	void PrepararJuego();
 	void Jugar();
 	

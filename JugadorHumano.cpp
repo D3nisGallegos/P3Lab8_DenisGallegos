@@ -2,8 +2,8 @@
 
 using namespace std;
 
-JugadorHumano :: JugadorHumano(){
-	
+JugadorHumano :: JugadorHumano(string x){
+	nombre = x; 
 }
 
 
